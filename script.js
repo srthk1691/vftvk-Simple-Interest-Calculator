@@ -11,7 +11,8 @@ function compute() {
         "at an interest rate of <mark>" + rate + "</mark>,<br/>" +
         "You will receive an amount of <mark>" + interest + "</mark>,<br/> " +
         "in the year <mark>" + year + "</mark>";
-    } else {
+    } 
+    else {
       alert("Enter a positive number"); 
       document.getElementById("principal").focus(); 
     }     
