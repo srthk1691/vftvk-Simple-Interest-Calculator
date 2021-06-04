@@ -12,7 +12,7 @@ function compute() {
         "You will receive an amount of <mark>" + interest + "</mark>,<br/> " +
         "in the year <mark>" + year + "</mark>";
     } else {
-      alert("Enter a positive number");  
+        alert("Enter a positive number");
     }     
     document.getElementById("principal").focus();
 }
